@@ -12,8 +12,8 @@ function setup() {
   createCanvas(1200,800);
  engine=Engine.create();
  world=engine.world;
- ball = new Particle(100,500,50);
-slingshot = new Slingshot(ball.body,{x:100,y:500});
+ ball = new Particle(100,450,50);
+slingshot = new Slingshot(ball.body,{x:100,y:475});
 ground = new Ground(600,650,1200,20);
 box1 = new Boxgreen(400,540,80,80);
 box2 = new Boxgreen(480,540,80,80);
